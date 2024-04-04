@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    transition: all .3s;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.navBar{
+    background-color: rgb(246, 246, 246);
+    padding: 0 16px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.logo img{
+    width: 90px;
+}
+
+.profile h4{
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #6d6d6d;
+}
+
+.feature-property{
+    text-align: center;
+    border-bottom: 3px solid #0069cf;
+    padding-bottom: 20px;
+}
+
+.feature-property h5{
+    margin-top: 15px;
+}
+
+.feature-property #getReviewsBtn {
+    background-color: #0069cf;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+    margin: 0 auto;
+    border-radius: 4px;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.feature-property #getReviewsBtn:hover{
+    background-color: #0052a1;
+}
+
+.feature-property .reviewList{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.feature-property .reviewList li {
+    padding: 0 25px;
+}
+
+.container {
+    padding: 0 16px;
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.other-properties-title{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.properties{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 30px;
+    justify-content: center;
+}
+.properties .card{
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.properties .card-img img{
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+.properties .card-content{
+    padding: 10px 0 0;
+}
+
+.properties .card-content h4{
+    margin: 0;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.properties .card-content h5{
+    margin: 10px 0 0;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.main-image {
+    padding-top: 16px;
+}
+
+.main-image img{
+    width : 100%;
+}
+
+.footer{
+    background-color: #e27c7c;
+    padding: 15px;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+    color: #fff;
+}
